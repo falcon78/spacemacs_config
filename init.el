@@ -419,6 +419,7 @@ you should place your code here."
 (defun dotspacemacs/user-config ()
   ;; ...
   ;; Set escape keybinding to "jk"
+  (setq-default evil-escape-key-sequence "jk")
   (require 'vue-mode)
   (add-to-list 'vue-mode-hook #'smartparens-mode)
   (require 'lsp-mode)
@@ -428,7 +429,7 @@ you should place your code here."
     (require 'lsp-flycheck))
   (require 'company-lsp)
   (push 'company-lsp company-backends)
-  (setq-default evil-escape-key-sequence "jk"))
+  )
 
 (defun dotspacemacs/emacs-custom-settings ()
   "Emacs custom settings.
