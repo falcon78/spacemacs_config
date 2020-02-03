@@ -18,6 +18,6 @@ git checkout develop
 
 ```bash
 git clone git@github.com:falcon78/spacemacs_config.git ~/.spacemacs.d
-ln .jsbeautifyrc ~/.jsbeautifyrc
+ln .spacemacs.d/.jsbeautifyrc ~/.jsbeautifyrc
 ```
 
